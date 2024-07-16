@@ -37,41 +37,21 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp NUMBER_1  &kp N2       &kp N3      &kp N4  &kp N5  &none                                                         &mo 4     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp EQUAL
-&kp APOS        &kp Q         &kp W        &kp E       &kp R   &kp T   &none                                                         &none     &kp Y   &kp U   &kp I      &kp O    &kp P     &kp MINUS
-&kp ESCAPE      &kp A         &kp S        &kp D       &kp F   &kp G   &none         &none            &none      &none  &none        &none     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp ENTER
-&kp LEFT_SHIFT  &hmlt 3 Z     &hm LCTRL X  &hm LALT C  &kp V   &kp B                                  &none      &none                         &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-&none           &none         &none        &none       &none           &kp LEFT_GUI  &lt 2 BACKSPACE  &none      &none  &lt 1 SPACE  &kp RALT          &none   &none      &none    &none     &none
+&kp TAB         &kp NUMBER_1  &kp N2       &kp N3      &kp N4  &kp N5  &none                                                       &mo 2     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp ENTER
+&kp EQUAL       &kp Q         &kp W        &kp E       &kp R   &kp T   &none                                                       &none     &kp Y   &kp U   &kp I      &kp O    &kp P     &kp MINUS
+&kp ESCAPE      &kp A         &kp S        &kp D       &kp F   &kp G   &none         &none            &none      &none  &none      &none     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z         &hm LCTRL X  &hm LALT C  &kp V   &kp B                                  &none      &none                       &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+&none           &none         &none        &none       &none           &kp LEFT_GUI  &lt 1 BACKSPACE  &none      &none  &kp SPACE  &kp RALT          &none   &none      &none    &none     &none
             >;
         };
 
-        layer_rthumb {
+        layer_thumb {
             bindings = <
-&trans  &trans  &trans     &trans    &trans  &trans  &trans                                                     &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans     &trans    &trans  &trans  &trans                                                     &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans     &trans    &trans  &trans  &trans          &trans         &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &kp LCTRL  &kp LALT  &trans  &trans                                 &trans      &trans                  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans     &trans    &trans          &mt LGUI SPACE  &kp BACKSPACE  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
-            >;
-        };
-
-        layer_lthumb {
-            bindings = <
-&trans  &trans  &trans     &trans  &trans    &trans     &trans                                         &trans              &trans             &trans     &trans                &trans                 &trans         &trans
-&trans  &trans  &trans     &trans  &trans    &trans     &trans                                         &trans              &kp DOUBLE_QUOTES  &kp APOS   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp PIPE       &trans
-&trans  &trans  &trans     &trans  &trans    &trans     &trans  &trans  &trans      &trans  &trans     &trans              &kp UNDERSCORE     &kp MINUS  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp BACKSLASH  &trans
-&trans  &trans  &kp LCTRL  &trans  &kp LGUI  &kp GRAVE                  &trans      &trans                                 &kp PLUS           &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &trans         &trans
-&trans  &trans  &trans     &trans  &trans               &trans  &trans  &trans      &trans  &kp SPACE  &mt LALT BACKSPACE                     &trans     &trans                &trans                 &trans         &trans
-            >;
-        };
-
-        layer_fn {
-            bindings = <
-&trans  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5  &trans                                      &trans  &kp F6  &kp F7             &kp F8           &kp F9  &kp F10  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans             &trans           &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp C_BRI_DN       &kp C_BRI_UP     &trans  &trans   &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &trans             &trans           &trans  &trans   &trans
+&trans  &kp F1  &kp F2     &kp F3             &kp F4           &kp F5     &trans                                      &trans  &kp F6          &kp F7          &kp F8        &kp F9            &kp F10            &trans
+&trans  &trans  &trans     &kp C_BRI_DEC      &kp C_BRI_UP     &trans     &trans                                      &trans  &trans          &trans          &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
+&trans  &trans  &kp TAB    &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp TILDE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp ENTER          &kp PLUS
+&trans  &trans  &kp LCTRL  &kp LALT           &kp LGUI         &kp GRAVE                  &trans      &trans                  &trans          &kp PIPE        &trans        &kp LEFT_BRACE    &kp RIGHT_BRACE    &kp BACKSLASH
+&trans  &trans  &trans     &trans             &trans                      &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans            &trans             &trans
             >;
         };
 
