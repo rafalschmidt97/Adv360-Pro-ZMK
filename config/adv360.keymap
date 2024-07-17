@@ -48,9 +48,9 @@
         layer_thumb {
             bindings = <
 &trans  &kp F1   &kp F2     &kp F3             &kp F4           &kp F5     &trans                                      &trans  &kp F6          &kp F7          &kp F8        &kp F9            &kp F10            &trans
-&trans  &trans   &trans     &kp C_BRI_DEC      &kp C_BRI_UP     &trans     &trans                                      &trans  &trans          &trans          &trans        &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp EQUAL
-&trans  &kp TAB  &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp ENTER          &kp BACKSLASH
-&trans  &trans   &kp LCTRL  &kp LALT           &kp LGUI         &kp GRAVE                  &trans      &trans                  &trans          &trans          &trans        &trans            &trans             &trans
+&trans  &trans   &trans     &kp C_BRI_DEC      &kp C_BRI_UP     &kp GRAVE  &trans                                      &trans  &kp BACKSLASH   &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
+&trans  &kp TAB  &trans     &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp ENTER          &trans
+&trans  &trans   &kp LCTRL  &kp LALT           &kp LGUI         &kp TILDE                  &trans      &trans                  &kp PIPE        &kp UNDER       &kp PLUS      &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans
 &trans  &trans   &trans     &trans             &trans                      &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans            &trans             &trans
             >;
         };
