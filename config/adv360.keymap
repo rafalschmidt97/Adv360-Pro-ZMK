@@ -47,11 +47,11 @@
 
         layer_sym_nav {
             bindings = <
-&trans  &trans   &trans     &trans    &trans    &trans     &trans                                      &trans  &trans          &trans          &trans        &trans            &trans             &trans
-&trans  &trans   &trans     &trans    &trans    &kp GRAVE  &trans                                      &trans  &kp BACKSLASH   &kp MINUS       &kp EQUAL     &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans
-&trans  &kp TAB  &trans     &trans    &trans    &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW   &kp ENTER          &trans
-&trans  &trans   &kp LCTRL  &kp LALT  &kp LGUI  &trans                     &trans      &trans                  &trans          &trans          &trans        &trans            &trans             &trans
-&trans  &trans   &trans     &trans    &trans               &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans            &trans             &trans
+&trans  &trans   &trans     &trans    &trans    &trans     &trans                                      &trans  &trans          &trans          &trans                &trans                 &trans     &trans
+&trans  &trans   &trans     &trans    &trans    &kp GRAVE  &trans                                      &trans  &kp BACKSLASH   &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans
+&trans  &kp TAB  &trans     &trans    &trans    &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW        &kp ENTER  &trans
+&trans  &trans   &kp LCTRL  &kp LALT  &kp LGUI  &trans                     &trans      &trans                  &trans          &kp EQUAL       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans
+&trans  &trans   &trans     &trans    &trans               &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                &trans                 &trans     &trans
             >;
         };
 
