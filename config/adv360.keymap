@@ -37,21 +37,21 @@
 
         default_layer {
             bindings = <
-&kp TAB         &kp NUMBER_1  &kp N2       &kp N3      &kp N4      &kp N5  &none                                                              &mo 3     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &kp ENTER
-&kp EQUAL       &kp Q         &kp W        &kp E       &kp R       &kp T   &none                                                              &none     &kp Y   &kp U   &kp I      &kp O    &kp P     &kp MINUS
-&kp ESCAPE      &kp A         &kp S        &kp D       &kp F       &kp G   &none               &none           &none      &none  &none        &none     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &kp APOS
-&none           &hmlt 2 Z     &hm LCTRL X  &hm LALT C  &hm LCMD V  &kp B                                       &none      &none                         &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &none
-&kp LEFT_SHIFT  &none         &none        &none       &none               &mt LGUI BACKSPACE  &kp LEFT_SHIFT  &none      &none  &lt 1 SPACE  &kp RALT          &none   &none      &none    &none     &kp RIGHT_SHIFT
+&none                  &kp NUMBER_1  &kp N2       &kp N3      &kp N4      &kp N5  &none                                                              &mo 3     &kp N6  &kp N7  &kp N8     &kp N9   &kp N0    &none
+&kp EQUAL              &kp Q         &kp W        &kp E       &kp R       &kp T   &none                                                              &none     &kp Y   &kp U   &kp I      &kp O    &kp P     &kp MINUS
+&mt LEFT_SHIFT ESCAPE  &kp A         &kp S        &kp D       &kp F       &kp G   &none               &none           &none      &none  &none        &none     &kp H   &kp J   &kp K      &kp L    &kp SEMI  &mt RIGHT_SHIFT APOS
+&kp TAB                &hmlt 2 Z     &hm LCTRL X  &hm LALT C  &hm LCMD V  &kp B                                       &none      &none                         &kp N   &kp M   &kp COMMA  &kp DOT  &kp FSLH  &kp ENTER
+&none                  &none         &none        &none       &none               &mt LGUI BACKSPACE  &kp LEFT_SHIFT  &none      &none  &lt 1 SPACE  &kp RALT          &none   &none      &none    &none     &none
             >;
         };
 
         layer_sym_nav {
             bindings = <
-&trans  &trans   &trans     &trans    &trans    &trans     &trans                                      &trans  &trans          &trans          &trans                &trans                 &trans     &trans
-&trans  &trans   &trans     &trans    &trans    &kp GRAVE  &trans                                      &trans  &kp BACKSLASH   &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans     &trans
-&trans  &kp TAB  &trans     &trans    &trans    &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW        &kp ENTER  &trans
-&trans  &trans   &kp LCTRL  &kp LALT  &kp LGUI  &trans                     &trans      &trans                  &trans          &kp EQUAL       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans     &trans
-&trans  &trans   &trans     &trans    &trans               &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                &trans                 &trans     &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans                                      &trans  &trans          &trans          &trans                &trans                 &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &kp GRAVE  &trans                                      &trans  &kp BACKSLASH   &kp MINUS       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans     &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW        &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                     &trans      &trans                  &trans          &kp EQUAL       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+&trans  &trans  &trans  &trans  &trans             &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                &trans                 &trans  &trans
             >;
         };
 
