@@ -37,21 +37,21 @@
 
         default_layer {
             bindings = <
-&hmlt 2 GRAVE   &kp NUMBER_1  &kp N2      &kp N3      &kp N4  &kp N5  &none                                                              &mo 3     &kp N6  &kp N7  &kp N8            &kp N9             &kp N0           &kp BACKSLASH
-&kp EQUAL       &kp Q         &kp W       &kp E       &kp R   &kp T   &none                                                              &none     &kp Y   &kp U   &kp I             &kp O              &kp P            &kp MINUS
-&kp ESCAPE      &kp A         &kp S       &kp D       &kp F   &kp G   &none               &none           &none      &none  &none        &none     &kp H   &kp J   &kp K             &kp L              &kp SEMI         &kp ENTER
-&kp TAB         &hm LCTRL Z   &hm LALT X  &hm LGUI C  &kp V   &kp B                                       &none      &none                         &kp N   &kp M   &hm LGUI COMMA    &hm RALT DOT       &hm LCTRL SLASH  &kp APOS
-&kp LEFT_SHIFT  &none         &none       &none       &none           &mt LGUI BACKSPACE  &kp LEFT_SHIFT  &none      &none  &lt 1 SPACE  &kp RALT          &none   &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &none            &kp RIGHT_SHIFT
+&hmlt 2 GRAVE  &kp NUMBER_1  &kp N2      &kp N3      &kp N4  &kp N5  &none                                                              &trans    &kp N6  &kp N7  &kp N8          &kp N9        &kp N0           &hmlt 3 BACKSLASH
+&kp EQUAL      &kp Q         &kp W       &kp E       &kp R   &kp T   &none                                                              &none     &kp Y   &kp U   &kp I           &kp O         &kp P            &kp MINUS
+&kp ESCAPE     &kp A         &kp S       &kp D       &kp F   &kp G   &none               &none           &none      &none  &none        &none     &kp H   &kp J   &kp K           &kp L         &kp SEMI         &kp ENTER
+&kp TAB        &hm LCTRL Z   &hm LALT X  &hm LGUI C  &kp V   &kp B                                       &none      &none                         &kp N   &kp M   &hm LGUI COMMA  &hm RALT DOT  &hm LCTRL SLASH  &kp APOS
+&none          &none         &none       &none       &none           &mt LGUI BACKSPACE  &kp LEFT_SHIFT  &none      &none  &lt 1 SPACE  &kp RALT          &none   &trans          &trans        &none            &none
             >;
         };
 
         layer_sym_nav {
             bindings = <
-&trans  &trans    &trans  &trans    &trans      &trans                    &trans                                      &trans  &trans          &trans          &trans                &trans                 &trans         &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans                                      &trans  &kp CARET       &kp AMPS        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR       &trans
-&trans  &trans    &trans  &trans    &trans      &trans                    &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW          &kp RIGHT_ARROW        &kp BACKSLASH  &trans
-&trans  &trans    &trans  &trans    &trans      &kp LC(LG(LS(NUMBER_4)))                  &trans      &trans                  &trans          &kp GRAVE       &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans         &trans
-&trans  &trans    &trans  &trans    &trans                                &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                &trans                 &trans         &trans
+&trans  &trans          &trans  &trans    &trans      &trans                    &trans                                      &trans  &trans          &trans            &trans                &trans                 &trans             &trans
+&trans  &kp EXCL        &kp AT  &kp HASH  &kp DOLLAR  &kp PERCENT               &trans                                      &trans  &kp CARET       &kp AMPS          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR           &trans
+&trans  &kp GRAVE       &trans  &trans    &trans      &trans                    &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp PIPE           &trans
+&trans  &hm LCTRL BSLH  &trans  &trans    &trans      &kp LC(LG(LS(NUMBER_4)))                  &trans      &trans                  &trans          &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans
+&trans  &trans          &trans  &trans    &trans                                &trans  &trans  &trans      &trans  &trans  &trans                  &trans            &trans                &trans                 &trans             &trans
             >;
         };
 
