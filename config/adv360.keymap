@@ -47,11 +47,11 @@
 
         layer_sym_nav {
             bindings = <
-&trans  &trans          &trans               &trans                &trans            &kp LS(LC(LG(NUMBER_4)))  &trans                                      &trans  &trans          &trans            &trans                &trans                 &trans             &trans
-&trans  &kp EXCL        &kp AT               &kp HASH              &kp DOLLAR        &kp PERCENT               &trans                                      &trans  &kp CARET       &kp AMPS          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR           &trans
-&trans  &kp GRAVE       &kp EQUAL            &kp PLUS              &kp MINUS         &kp UNDERSCORE            &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp PIPE           &trans
-&trans  &hm LCTRL BSLH  &hm LALT LEFT_BRACE  &hm LGUI RIGHT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                         &trans      &trans                  &trans          &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans
-&trans  &trans          &trans               &trans                &trans                                      &trans  &trans  &trans      &trans  &trans  &trans                  &trans            &trans                &trans                 &trans             &trans
+&trans  &trans          &trans                 &trans                  &trans      &kp LS(LC(LG(NUMBER_4)))  &trans                                      &trans  &trans          &trans            &trans                &trans                 &trans             &trans
+&trans  &kp EXCL        &kp AT                 &kp HASH                &kp DOLLAR  &kp PERCENT               &trans                                      &trans  &kp CARET       &kp AMPS          &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp STAR           &trans
+&trans  &kp GRAVE       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp MINUS   &kp UNDERSCORE            &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp UP_ARROW          &kp RIGHT_ARROW        &kp PIPE           &trans
+&trans  &hm LCTRL BSLH  &hm LALT LEFT_BRACKET  &hm LGUI RIGHT_BRACKET  &kp EQUAL   &kp PLUS                                  &trans      &trans                  &trans          &kp LEFT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp RIGHT_BRACKET  &trans
+&trans  &trans          &trans                 &trans                  &trans                                &trans  &trans  &trans      &trans  &trans  &trans                  &trans            &trans                &trans                 &trans             &trans
             >;
         };
 
