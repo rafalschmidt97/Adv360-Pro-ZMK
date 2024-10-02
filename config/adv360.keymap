@@ -39,19 +39,19 @@
             bindings = <
 &mo 2           &kp NUMBER_1  &kp N2      &kp N3      &kp N4  &kp N5  &none                                                   &trans    &kp N6  &kp N7  &kp N8          &kp N9        &kp N0           &mo 3
 &kp TAB         &kp Q         &kp W       &kp E       &kp R   &kp T   &none                                                   &none     &kp Y   &kp U   &kp I           &kp O         &kp P            &kp APOS
-&kp ESCAPE      &kp A         &kp S       &kp D       &kp F   &kp G   &none               &none  &none      &none  &none      &none     &kp H   &kp J   &kp K           &kp L         &kp SEMI         &kp ENTER
-&kp LEFT_SHIFT  &hm LCTRL Z   &hm LALT X  &hm LGUI C  &kp V   &kp B                              &none      &none                       &kp N   &kp M   &hm LGUI COMMA  &hm RALT DOT  &hm LCTRL SLASH  &kp RSHIFT
-&none           &none         &none       &none       &none           &mt LGUI BACKSPACE  &mo 1  &none      &none  &kp SPACE  &kp RALT          &none   &trans          &trans        &none            &none
+&kp ESCAPE      &kp A         &kp S       &kp D       &kp F   &kp G   &none               &none      &none      &none  &none  &none     &kp H   &kp J   &kp K           &kp L         &kp SEMI         &kp ENTER
+&kp LEFT_SHIFT  &hm LCTRL Z   &hm LALT X  &hm LGUI C  &kp V   &kp B                                  &none      &none                   &kp N   &kp M   &hm LGUI COMMA  &hm RALT DOT  &hm LCTRL SLASH  &kp RSHIFT
+&none           &none         &none       &none       &none           &mt LGUI BACKSPACE  &kp SPACE  &none      &none  &mo 1  &kp RALT          &none   &trans          &trans        &none            &none
             >;
         };
 
         layer_sym_nav {
             bindings = <
-&trans  &trans          &trans          &trans           &trans          &trans     &trans                                      &trans  &trans          &trans          &trans                 &trans                  &trans               &trans
-&trans  &trans          &trans          &trans           &trans          &trans     &trans                                      &trans  &trans          &trans          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans               &trans
-&trans  &kp EQUAL       &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp MINUS       &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW           &kp RIGHT_ARROW         &kp PIPE             &trans
-&trans  &hm LCTRL PLUS  &kp LALT        &kp LGUI         &kp UNDERSCORE  &kp TILDE                  &trans      &trans                  &trans          &trans          &hm RGUI LEFT_BRACKET  &hm RALT RIGHT_BRACKET  &hm LCTRL BACKSLASH  &trans
-&trans  &trans          &trans          &trans           &trans                     &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans                 &trans                  &trans               &trans
+&trans  &trans          &trans                 &trans                  &trans          &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans               &trans
+&trans  &trans          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans          &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans               &trans
+&trans  &kp EQUAL       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp MINUS       &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PIPE             &trans
+&trans  &hm LCTRL PLUS  &hm LALT LEFT_BRACKET  &hm LGUI RIGHT_BRACKET  &kp UNDERSCORE  &kp TILDE                  &trans      &trans                  &trans          &trans          &trans        &trans           &hm LCTRL BACKSLASH  &trans
+&trans  &trans          &trans                 &trans                  &trans                     &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans               &trans
             >;
         };
 
