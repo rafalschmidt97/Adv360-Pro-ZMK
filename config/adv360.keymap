@@ -47,11 +47,11 @@
 
         layer_sym_nav {
             bindings = <
-&trans  &trans          &trans                 &trans                  &trans          &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans               &trans
-&trans  &trans          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans          &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans               &trans
-&trans  &kp EQUAL       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp MINUS       &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp PIPE             &trans
-&trans  &hm LCTRL PLUS  &hm LALT LEFT_BRACKET  &hm LGUI RIGHT_BRACKET  &kp UNDERSCORE  &kp TILDE                  &trans      &trans                  &trans          &trans          &trans        &trans           &hm LCTRL BACKSLASH  &trans
-&trans  &trans          &trans                 &trans                  &trans                     &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans               &trans
+&trans  &trans          &trans                 &trans                  &trans          &trans         &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans          &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &kp PIPE        &kp BACKSLASH  &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &kp EQUAL       &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp MINUS       &kp GRAVE      &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &hm LCTRL PLUS  &hm LALT LEFT_BRACKET  &hm LGUI RIGHT_BRACKET  &kp UNDERSCORE  &kp TILDE                      &trans      &trans                  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans          &trans                 &trans                  &trans                         &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
             >;
         };
 
