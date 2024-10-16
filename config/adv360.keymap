@@ -37,21 +37,21 @@
 
         default_layer {
             bindings = <
-&mo 2             &kp NUMBER_1  &kp N2      &kp N3      &kp N4  &kp N5  &none                                                            &trans    &kp N6  &kp N7  &kp N8          &kp N9        &kp N0           &mo 3
-&kp TAB           &kp Q         &kp W       &kp E       &kp R   &kp T   &none                                                            &none     &kp Y   &kp U   &kp I           &kp O         &kp P            &kp APOS
-&kp ESCAPE        &kp A         &kp S       &kp D       &kp F   &kp G   &none               &none       &none      &none  &none          &none     &kp H   &kp J   &kp K           &kp L         &kp SEMI         &kp ENTER
-&hm LSHIFT EQUAL  &hm LCTRL Z   &hm LALT X  &hm LGUI C  &kp V   &kp B                                   &none      &none                           &kp N   &kp M   &hm LGUI COMMA  &hm RALT DOT  &hm LCTRL SLASH  &hm RSHIFT MINUS
-&none             &none         &none       &none       &none           &mt LGUI BACKSPACE  &kp LSHIFT  &none      &none  &hmlt 1 SPACE  &kp RALT          &none   &trans          &trans        &none            &none
+&mo 2             &kp NUMBER_1  &kp N2       &kp N3      &kp N4  &kp N5  &none                                                            &trans    &kp N6  &kp N7  &kp N8     &kp N9         &kp N0     &mo 3
+&kp TAB           &kp Q         &kp W        &kp E       &kp R   &kp T   &none                                                            &none     &kp Y   &kp U   &kp I      &kp O          &kp P      &kp APOS
+&kp ESCAPE        &kp A         &kp S        &kp D       &kp F   &kp G   &none               &none       &none      &none  &none          &none     &kp H   &kp J   &kp K      &kp L          &kp SEMI   &kp ENTER
+&hm LSHIFT EQUAL  &kp Z         &hm LCTRL X  &hm LALT C  &kp V   &kp B                                   &none      &none                           &kp N   &kp M   &kp COMMA  &hm LCTRL DOT  &kp SLASH  &hm RSHIFT MINUS
+&none             &none         &none        &none       &none           &mt LGUI BACKSPACE  &kp LSHIFT  &none      &none  &hmlt 1 SPACE  &kp RALT          &none   &trans     &trans         &none      &none
             >;
         };
 
         layer_sym_nav {
             bindings = <
-&trans  &trans  &trans                 &trans                  &trans         &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS   &trans         &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &kp LEFT_BRACE         &kp RIGHT_BRACE         &kp PIPE       &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
-&trans  &trans  &hm LALT LEFT_BRACKET  &hm LGUI RIGHT_BRACKET  &kp BACKSLASH  &kp TILDE                  &trans      &trans                  &trans          &trans          &trans        &trans           &trans  &trans
-&trans  &trans  &trans                 &trans                  &trans                    &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans                  &trans                 &trans         &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &kp LEFT_PARENTHESIS    &kp RIGHT_PARENTHESIS  &trans         &trans     &trans                                      &trans  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &kp LEFT_BRACE          &kp RIGHT_BRACE        &kp PIPE       &kp GRAVE  &trans  &trans  &trans      &trans  &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &trans  &trans
+&trans  &trans  &hm LCTRL LEFT_BRACKET  &kp RIGHT_BRACKET      &kp BACKSLASH  &kp TILDE                  &trans      &trans                  &trans          &trans          &trans        &trans           &trans  &trans
+&trans  &trans  &trans                  &trans                 &trans                    &trans  &trans  &trans      &trans  &trans  &trans                  &trans          &trans        &trans           &trans  &trans
             >;
         };
 
